@@ -16,7 +16,7 @@ Il ne vous reste plus cas choisir le thème avec Grub-custonizer
 Par défaut le logo est  <img src="./theme/eOS-logo.png" width="100"> mais vous pouvez changer le logo avec celui-ci de l’écran de démarrage. 
 Modifier la ligne 34 du fichier « theme.txt », en remplaçant « file = "eOS-logo.png" » par « file = "elementaryOS_logo.png" »
 
-<img src="./preview.png" width="400">
+<img src="./preview.PNG" width="400">
 
 ## Font
 
