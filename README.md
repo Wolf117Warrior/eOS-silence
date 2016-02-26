@@ -15,6 +15,7 @@ Theme Grub2 minimaliste inspiré de Arch-silence
 
 Il ne vous reste plus cas choisir le thème avec Grub-custonizer
 
+Par défaut
 
 <img src="./preview.png" width="400">
 
