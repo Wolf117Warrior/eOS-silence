@@ -1,10 +1,20 @@
 !!!!!!!!!!!!!  EDITION EN COURS !!!!!!!!!!!!!!!!!!!
 
+# Theme Grub2 eOS-silence
+
+Theme Grub2 minimaliste inspiré de Arch-silence
+
+# Installation
 
 
-# Arch-Silence GRUB2 theme
+    sudo mkdir /boot/grub/themes  // Création du dossier des thèmes
 
-My flat GRUB2 theme.
+    sudo su         // Passage en mode root
+
+    ./install.sh   // Lancement de la copie du thème
+
+Il ne vous reste plus cas choisir le thème avec Grub-custonizer
+
 
 <img src="./preview.png" width="400">
 
@@ -19,6 +29,6 @@ which makes it completely useless since there's practically no font that is read
 
 If not explicitly stated otherwise all the files in this project are distributed under the [GNU General Public License](./COPYING).
 
-## Author
+## Auteur original 
 
 Filippo Ghibellini
