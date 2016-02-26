@@ -1,5 +1,3 @@
-!!!!!!!!!!!!!  EDITION EN COURS !!!!!!!!!!!!!!!!!!!
-
 # Theme Grub2 eOS-silence
 
 Theme Grub2 minimaliste inspiré de Arch-silence
@@ -7,7 +5,7 @@ Theme Grub2 minimaliste inspiré de Arch-silence
 # Installation
 
 
-    sudo mkdir /boot/grub/themes  // Création du dossier des thèmes
+    sudo mkdir /boot/grub/themes  // Création du dossier des thèmes si pas créé
 
     sudo su         // Passage en mode root
 
@@ -15,21 +13,23 @@ Theme Grub2 minimaliste inspiré de Arch-silence
 
 Il ne vous reste plus cas choisir le thème avec Grub-custonizer
 
-Par défaut
+Par défaut le logo est  <img src="./theme/eOS-logo.png" width="100"> mais vous pouvez changer le logo avec celui-ci de l’écran de démarrage. 
+Modifier la ligne 34 du fichier « theme.txt », en remplaçant « file = "eOS-logo.png" » par « file = "elementaryOS_logo.png" »
 
 <img src="./preview.png" width="400">
 
 ## Font
 
-The font in the boot menu can't be changed because of GRUB.
+La police dans le menu de démarrage ne peut être modifiée en raison de GRUB.
 
-GRUB does have a conversion tool from ttf to it's own format but this format encodes each pixel with 1 bit
-which makes it completely useless since there's practically no font that is readable in such a low bit-depth.
+GRUB possède un outil de conversion de ttf dans son propre format mais ce format encode chaque pixel avec 1 bit ce qui rend complètement inutile de changer de police puisqu'il n'y a pratiquement aucune police lisible dans de telle faible profondeur.
 
 ## License
 
-If not explicitly stated otherwise all the files in this project are distributed under the [GNU General Public License](./COPYING).
+S’il n’en est pas explicitement fait mention, tous les fichiers de ce projet sont distribués sous la [GNU General Public License](./COPYING).
 
 ## Auteur original 
 
 Filippo Ghibellini
+
+& Forker par moi
